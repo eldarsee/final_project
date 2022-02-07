@@ -17,3 +17,8 @@ class ProductPageLocators:
     PRODUCT_FIELD = (By.CLASS_NAME, "alertinner > strong")
     PRODUCT_FIELD_START = (By.CLASS_NAME, "col-sm-6.product_main > h1")
     SUCCESS_MESSAGE = (By.CLASS_NAME, "alert-success")
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
