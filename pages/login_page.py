@@ -26,4 +26,3 @@ class LoginPage(BasePage):
         self.browser.find_element(*LoginPageLocators.PSWD1_FORM).send_keys(password)
         self.browser.find_element(*LoginPageLocators.PSWD2_FORM).send_keys(password)
         self.browser.find_element(*LoginPageLocators.REGISTER_BTN).click()
-        self.should_be_authorized_user()
